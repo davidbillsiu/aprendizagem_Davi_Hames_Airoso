@@ -42,7 +42,7 @@ header h1{
     text-decoration: none;
     color: white;
     font-size: 16px;
-    margin-left: 1200px;
+    margin-left: 1100px;
     font-size: 20px;
 }
 
@@ -52,7 +52,7 @@ header h1{
     text-decoration: none;
     color: #00FFD1;
     font-size: 16px;
-    margin-left: 1200px;
+    margin-left: 1100px;
     font-size: 20px;
 }
 
@@ -126,8 +126,8 @@ header p{
 
 .caixaUm{
     background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 60px;
     border-radius: 20px;
     padding: 50px 50px;
@@ -195,8 +195,8 @@ header p{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto; 
-  gap: 10px; 
-  padding: 17px;
+  gap: 100px 120px; 
+  padding: 10px 5px;
   text-align: center;
 }
 
@@ -204,6 +204,7 @@ header p{
     background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
     padding: 20px 20px;
     border-radius: 20px;
+    margin-left: 100px;
 }
 
 .grid-FE:hover{
@@ -221,15 +222,8 @@ header p{
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     border-radius: 50%;
     width: 50px;
-    margin-left: 180px;
+    margin-left: 130px;
     padding: 10px 10px;
-}
-
-.textoFE{
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 20px;
 }
 
 .emojiFE:hover{
@@ -239,16 +233,8 @@ header p{
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     border-radius: 50%;
     width: 50px;
-    margin-left: 180px;
+    margin-left: 130px;
     padding: 10px 10px;
-}
-
-.textoFE:hover{
-    transition: 700ms;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 23px;
 }
 
 .tituloFE{
@@ -284,7 +270,7 @@ header p{
     padding: 10px 10px;
 }
 .emojiLC:hover{
-     transition: 700ms;
+    transition: 700ms;
     text-decoration: none;
     font-size: 43px;
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
@@ -295,7 +281,7 @@ header p{
 }
 
 .tituloLC{
-     color: white;
+    color: white;
 }
 
 .tituloLC:hover{
@@ -303,18 +289,114 @@ header p{
     transition: 700ms;
 }
 
-.textoLC{
-     color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 20px;
+.grid-FBD{
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-right: 100px;
 }
 
-.textoLC:hover{
+.grid-FBD:hover{
+    border-radius: 50px;
     transition: 700ms;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 23px;
+    margin-right: 100px;
 }
 
+.linkFBD{
+    text-decoration: none;
+}
+
+.emojiFBD{
+    font-size: 40px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 130px;
+    padding: 10px 10px;
+}
+
+.emojiFBD:hover{
+    transition: 700ms;
+    text-decoration: none;
+    font-size: 43px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 130px;
+    padding: 10px 10px;
+}
+
+.tituloFBD{
+    color: white;
+}
+
+.tituloFBD:hover{
+    font-size: 38px;
+    transition: 700ms;
+}
+
+.grid-FR{
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.grid-FR:hover{
+    border-radius: 50px;
+    transition: 700ms;
+    text-decoration: none;
+}
+
+.linkFR{
+    text-decoration: none;
+}
+
+.emojiFR{
+    text-decoration: none;
+    font-size: 40px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 130px;
+    padding: 10px 10px;
+}
+
+.emojiFR:hover{
+    transition: 700ms;
+    text-decoration: none;
+    font-size: 43px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 130px;
+    padding: 10px 10px;
+}
+
+.tituloFR{
+    color: white;
+}
+
+.tituloFR:hover{
+    font-size: 43px;
+    transition: 700ms;
+}
+
+.grid-LP{
+    border-radius: 50px;
+    transition: 700ms;
+}
+
+.linkLP{
+    text-decoration: none;
+}
+
+.emojiLP{
+    font-size: 40px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 180px;
+    padding: 10px 10px;
+}

@@ -134,7 +134,7 @@ header p{
     color: white;
 }
 
-.caixaConteudo .tituloFE{
+.caixaConteudo .tituloLC{
      color: #00FFD1;
      font-size: 40px;
      text-align: center;
@@ -180,108 +180,18 @@ header p{
     margin-bottom: 250px;
 }
 
-footer{
-    text-align: center;
-     text-align: center;
-     background: rgba(10, 10, 25, 0.4);
-    backdrop-filter: blur(12px);
-    padding: 20px;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: white;
-    font-size: 34px;
-    transition: 700ms;
-}
-
-.caixaConteudo .imagem_esticada{
-    width: 600px;
-    height: 400px;
-}
-
-input{
-    font-size: 20px;
-    background-color: black;
-    color: white;
-}
-
-input:hover{
-    transition: 700ms;
-    font-size: 21px;
-    background-color: black;
-    color: white;
-}
-
-label{
-    margin-left: 200px;
-    font-size: 20px;
-}
-
-button{
-    font-size: 20px;
-    padding: 10px 10px;
-    border-radius: 20px;
-}
-
-button:hover{
-    transition: 700ms;
-    border-radius: 25px;
-    font-size: 23px;
-
-}
-
-.centralizar{
-    text-align: center;
-}
-
-#res{
-    font-size: 22px;
-}
-
-iframe{
-    display: block;
-    margin: 0 auto;
-}
-
-.caixaConteudo .codigo{
-    width: 500px;
-    height: 500px;
-}
-
-.video-container {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 800px;
-}
-
-/* O vídeo se ajusta ao tamanho da tela */
-.video {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    border: 3px solid #00aaff;
-    box-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
-}
-
-.diodo{
-    width: 350px;
-    height: 200px;
-}
-
-.caixaConteudo .disp{
-    height: 500px;
+.caixaConteudo .fluxo_inicio{
     width: 300px;
-    background-color: white;
+    height: 150px;
+    background-color: #00E5FD;
     padding: 7px 7px;
-    border-radius: 30px;
+}
+
+.caixaConteudo .fluxo_dados{
+    height: 250px;
+    width: 300px;
+    background-color: #00E5FD;
+    padding: 7px 7px;
 }
 
 .caixaConteudo .proximo{
@@ -305,4 +215,25 @@ iframe{
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     padding: 7px 7px;
     border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    text-align: center;
+    background: rgba(10, 10, 25, 0.4);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 34px;
+    transition: 700ms;
 }

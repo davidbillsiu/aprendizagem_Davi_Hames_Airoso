@@ -75,7 +75,7 @@ header h1{
     font-size: 20px;
 }
 
-.COF{
+.creditos{
     margin-bottom: 30px;
     text-decoration: none;
     color: white;
@@ -84,7 +84,7 @@ header h1{
     font-size: 20px;
 }
 
-.COF:hover{
+.creditos:hover{
     transition: 700ms;
     margin-bottom: 30px;
     text-decoration: none;

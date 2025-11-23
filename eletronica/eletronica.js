@@ -37,7 +37,13 @@ if(V === 0 & rUm === 0 & rDois === 0 & rTres === 0){
     
     res.innerHTML += `A Tensão do Resistor Um é: ${tensao1.toFixed(3)}<br>`
     res.innerHTML += `A Tensão do Resistor Dois é: ${tensao2.toFixed(3)}<br>`
-    res.innerHTML += `A Tensão do Resistor Três é: ${tensao3.toFixed(3)}<br><br>`
+    res.innerHTML += `A Tensão do Resistor Três é: ${tensao3.toFixed(3)}<br><br><br><br>`
+    // res.innerHTML = `Para calcular resistência em Paralelo:(R2 x R3) / (R2 + R3) <br>`
+    // res.innerHTML = `Para calcular resistência Total: R1 + Resistência Paralelo <br>`
+    // res.innerHTML = `Para calcular Corrente do R1: Voltagem / Resistência Total <br>`
+    // res.innerHTML = `Para calcular Corrente do R2:(R3 x Corrente R1) / (R2 + R3) <br>`
+    // res.innerHTML = `Para calcular Corrente do R3: R1 - R2 <br>`
+    
     }
     
 }

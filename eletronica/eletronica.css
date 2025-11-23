@@ -244,3 +244,35 @@ button:hover{
 #res{
     font-size: 22px;
 }
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.caixaConteudo .codigo{
+    width: 500px;
+    height: 500px;
+}
+
+.video-container {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
+}
+
+/* O vídeo se ajusta ao tamanho da tela */
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #00aaff;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
+}
+
+.diodo{
+    width: 350px;
+    height: 200px;
+}
+

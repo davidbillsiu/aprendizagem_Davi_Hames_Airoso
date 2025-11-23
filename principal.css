@@ -212,80 +212,14 @@ header p{
     transition: 700ms;
 }
 
-.linkFE{
-    text-decoration: none;
-}
-
-.emojiFE{
-    text-decoration: none;
-    font-size: 40px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.emojiFE:hover{
-    transition: 700ms;
-    text-decoration: none;
-    font-size: 43px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.tituloFE{
-    color: white;
-}
-
-.tituloFE:hover{
-    font-size: 43px;
-    transition: 700ms;
-}
-
 .grid-LC{
-     background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
     padding: 20px 20px;
     border-radius: 20px;
 }
 
 .grid-LC:hover{
     border-radius: 50px;
-    transition: 700ms;
-}
-
-.linkLC{
-    text-decoration: none;
-}
-
-.emojiLC{
-    font-size: 40px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 180px;
-    padding: 10px 10px;
-}
-.emojiLC:hover{
-    transition: 700ms;
-    text-decoration: none;
-    font-size: 43px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 180px;
-    padding: 10px 10px;
-}
-
-.tituloLC{
-    color: white;
-}
-
-.tituloLC:hover{
-    font-size: 43px;
     transition: 700ms;
 }
 
@@ -302,45 +236,12 @@ header p{
     margin-right: 100px;
 }
 
-.linkFBD{
-    text-decoration: none;
-}
-
-.emojiFBD{
-    font-size: 40px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.emojiFBD:hover{
-    transition: 700ms;
-    text-decoration: none;
-    font-size: 43px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.tituloFBD{
-    color: white;
-}
-
-.tituloFBD:hover{
-    font-size: 38px;
-    transition: 700ms;
-}
-
 .grid-FR{
     background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
     padding: 20px 20px;
     border-radius: 20px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .grid-FR:hover{
@@ -349,54 +250,99 @@ header p{
     text-decoration: none;
 }
 
-.linkFR{
-    text-decoration: none;
-}
-
-.emojiFR{
-    text-decoration: none;
-    font-size: 40px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.emojiFR:hover{
-    transition: 700ms;
-    text-decoration: none;
-    font-size: 43px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    border-radius: 50%;
-    width: 50px;
-    margin-left: 130px;
-    padding: 10px 10px;
-}
-
-.tituloFR{
-    color: white;
-}
-
-.tituloFR:hover{
-    font-size: 43px;
-    transition: 700ms;
-}
-
 .grid-LP{
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
+    border-radius: 20px;
+    transition: 700ms;
+}
+
+.grid-LP:hover{
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
     border-radius: 50px;
     transition: 700ms;
 }
 
-.linkLP{
-    text-decoration: none;
+.grid-FTI{
+    background: linear-gradient(#0D0D1D,#0B0B1C,#0C0C1D);
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-right: 100px;
 }
 
-.emojiLP{
+.grid-FTI:hover{
+    border-radius: 50px;
+    transition: 700ms;
+    margin-right: 100px;
+}
+
+
+/*Tira aquela linha roxa em baixo dos links  */
+.link{
+    text-decoration: none;
+}
+/* ------------------------------------------ */
+
+
+/* ---------------------Decoração dos Emojis-------------------------------- */
+.emoji{
     font-size: 40px;
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     border-radius: 50%;
     width: 50px;
     margin-left: 180px;
     padding: 10px 10px;
+}
+
+.emoji:hover{
+    transition: 700ms;
+    text-decoration: none;
+    font-size: 43px;
+    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 180px;
+    padding: 10px 10px;
+}
+/* ------------------------------------------------------------------------- */
+
+/* Cuida de todos os títulos dos blocos de temas */
+.titulo{
+    color: white;
+}
+
+.titulo:hover{
+    font-size: 38px;
+    transition: 700ms;
+}
+/* ----------------------------------------------------- */
+
+.tituloCurso{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+main iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    text-align: center;
+     background: rgba(10, 10, 25, 0.4);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 34px;
+    transition: 700ms;
 }

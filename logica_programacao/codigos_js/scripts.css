@@ -134,7 +134,7 @@ header p{
     color: white;
 }
 
-.caixaConteudo .tituloLC{
+.caixaConteudo .tituloS{
      color: #00FFD1;
      font-size: 40px;
      text-align: center;
@@ -142,39 +142,6 @@ header p{
     
 .cor{
         color: #00FFD1;
-}
-
-.html{
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-}
-
-.css{
-    padding: 7px 7px;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-}
-
-.caixaConteudo .scripts{
-    text-decoration: none;
-}
-
-.textojs{
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 5px 5px;
-    color: #051031;
-    border-radius: 20px;
-}
-
-.textojs:hover{
-    background-image: url(./img_programacoes/js_fundo.jpg);
-    transition: 700ms;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 5px 5px;
-    font-size: 38px;
-    color: #051031;
-    border-radius: 20px;
 }
 
 .linhaDiv{

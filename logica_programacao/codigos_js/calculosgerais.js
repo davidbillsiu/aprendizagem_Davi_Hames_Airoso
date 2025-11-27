@@ -142,3 +142,29 @@ function principal9(){
     res9.innerHTML += `O IMC calculado deu ${IMC.toFixed(2)}`
 }
 //----------------------------------------------------------------------------------------
+
+//-------------------------------questão 10-----------------------------------------------
+let celsius = Number(document.getElementById('celsius').value)
+
+
+let res10 = document.getElementById('res10')
+function principal10(){
+    let F = 0
+    F = (celsius * 9/5) + 32
+    res10.innerHTML = ``
+    res10.innerHTML += `${celsius}° convertido para Fahrenheit ${F}`
+}
+//----------------------------------------------------------------------------------------
+
+//-----------------------------------------questão 11-------------------------------------
+    function encontrarMenorValor(array){
+let menor = array[0];
+for (let i=1; i < array.length; i++) {
+let valorAtual = array[i];
+if (array[i] < menor) {
+menor = array[i];
+}
+}
+return menor;
+}
+//----------------------------------------------------------------------------------------

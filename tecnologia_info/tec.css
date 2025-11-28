@@ -134,14 +134,10 @@ header p{
     color: white;
 }
 
-.caixaConteudo .tituloS{
+.caixaConteudo .tituloLC{
      color: #00FFD1;
      font-size: 40px;
      text-align: center;
-    }
-    
-.cor{
-        color: #00FFD1;
 }
 
 .linhaDiv{
@@ -173,7 +169,7 @@ header p{
     height: 350px;
     width: 350px;
     border-radius: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
 }
 
 .caixaConteudo .textoSemImg{
@@ -184,82 +180,39 @@ header p{
     margin-bottom: 250px;
 }
 
-button{
+.caixaConteudo .atividade_power{
+    width: 450px;
+    height: 360px;
+}
+
+.caixaConteudo .atividade_exel{
+    width: 530px;
+    height: 400px;
+}
+
+.caixaConteudo .baixar{
+    display: block;       /* IMPORTANTE */
+    margin-bottom: 250px;
+    color: #051031;
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    padding: 10px 10px;
-    font-size: 20px;
-     display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-    color: black;
+    font-size: 18px;
+    padding: 7px 7px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 12px;
 }
 
-button:hover{
-    color: black;
+.caixaConteudo .baixar:hover{
+    display: block;       /* IMPORTANTE */
+    margin-bottom: 250px;
+    text-align: center;
     transition: 700ms;
+    color: #051031;
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    padding: 10px 10px;
-    font-size: 22px;
-     display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-}
-
-label{
-    margin-left: 170px;
-    font-size: 19px;
-}
-
-input{
-    font-size: 19px;
-    background-color: #051031;
-    color: white;
-}
-
-input:hover{
-    transition: 700ms;
     font-size: 20px;
-    background-color: #051031;
-    color: white;
-}
-
-#res4{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res5{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res6{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res7{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res8{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res9{
-    text-align: center;
-    font-size: 22px;
-}
-
-#res10{
-    text-align: center;
-    font-size: 22px;
+    padding: 7px 7px;
+    text-decoration: none;
+    border-radius: 12px;
 }
 
 .caixaConteudo .proximo{
@@ -271,6 +224,7 @@ input:hover{
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     padding: 7px 7px;
     border-radius: 10px;
+    margin-top: 150px;
 }
 
 .caixaConteudo .proximo:hover{

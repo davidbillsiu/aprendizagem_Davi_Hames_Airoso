@@ -134,14 +134,10 @@ header p{
     color: white;
 }
 
-.caixaConteudo .tituloS{
+.caixaConteudo .tituloFE{
      color: #00FFD1;
      font-size: 40px;
      text-align: center;
-    }
-    
-.cor{
-        color: #00FFD1;
 }
 
 .linhaDiv{
@@ -184,82 +180,108 @@ header p{
     margin-bottom: 250px;
 }
 
-button{
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    padding: 10px 10px;
-    font-size: 20px;
-     display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-    color: black;
+footer{
+    text-align: center;
+     text-align: center;
+     background: rgba(10, 10, 25, 0.4);
+    backdrop-filter: blur(12px);
+    padding: 20px;
 }
 
-button:hover{
-    color: black;
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+    font-size: 34px;
     transition: 700ms;
-    background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
-    padding: 10px 10px;
-    font-size: 22px;
-     display: block;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 20px;
 }
 
-label{
-    margin-left: 170px;
-    font-size: 19px;
+.caixaConteudo .imagem_esticada{
+    width: 600px;
+    height: 400px;
 }
 
 input{
-    font-size: 19px;
-    background-color: #051031;
+    font-size: 20px;
+    background-color: black;
     color: white;
 }
 
 input:hover{
     transition: 700ms;
-    font-size: 20px;
-    background-color: #051031;
+    font-size: 21px;
+    background-color: black;
     color: white;
 }
 
-#res4{
+label{
+    margin-left: 200px;
+    font-size: 20px;
+}
+
+button{
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+button:hover{
+    transition: 700ms;
+    border-radius: 25px;
+    font-size: 23px;
+
+}
+
+.centralizar{
     text-align: center;
+}
+
+#res{
     font-size: 22px;
 }
 
-#res5{
-    text-align: center;
-    font-size: 22px;
+iframe{
+    display: block;
+    margin: 0 auto;
 }
 
-#res6{
-    text-align: center;
-    font-size: 22px;
+.caixaConteudo .codigo{
+    width: 500px;
+    height: 500px;
 }
 
-#res7{
-    text-align: center;
-    font-size: 22px;
+.video-container {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 800px;
 }
 
-#res8{
-    text-align: center;
-    font-size: 22px;
+/* O vídeo se ajusta ao tamanho da tela */
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid #00aaff;
+    box-shadow: 0 0 20px rgba(0, 170, 255, 0.5);
 }
 
-#res9{
-    text-align: center;
-    font-size: 22px;
+.diodo{
+    width: 350px;
+    height: 200px;
 }
 
-#res10{
-    text-align: center;
-    font-size: 22px;
+.caixaConteudo .disp{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    padding: 7px 7px;
+    border-radius: 30px;
 }
 
 .caixaConteudo .proximo{
@@ -283,25 +305,4 @@ input:hover{
     background: linear-gradient(#00E5FD, #00F3CE, #00FEA5);
     padding: 7px 7px;
     border-radius: 15px;
-}
-
-footer{
-    text-align: center;
-    text-align: center;
-    background: rgba(10, 10, 25, 0.4);
-    backdrop-filter: blur(12px);
-    padding: 20px;
-}
-
-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
-
-footer a:hover{
-    text-decoration: underline;
-    color: white;
-    font-size: 34px;
-    transition: 700ms;
 }

@@ -9,7 +9,7 @@ function gerarAleatorio(min, max){
 
 
 //-----------------------------------Questão 5 na lista
-let res5 = document.getElementById('res5')
+let res4 = document.getElementById('res4')
 function ordenar5(){
     let num5 = [16, 13, 17, 10, 6, 19, 20, 5, 9, 15, 3, 18, 1, 12, 8, 2, 4, 14, 7, 11]
     let n = 20
@@ -23,8 +23,8 @@ function ordenar5(){
             }
         }
     }
-    res5.innerHTML = ``
-    res5.innerHTML += `O resultado que você pediu em ordem Crescente está aqui: ${num5}`
+    res4.innerHTML = ``
+    res4.innerHTML += `O resultado que você pediu em ordem Crescente está aqui: ${num5}`
 }
 
 function decrescente5(){
